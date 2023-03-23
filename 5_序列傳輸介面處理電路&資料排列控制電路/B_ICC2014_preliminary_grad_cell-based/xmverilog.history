@@ -1,0 +1,188 @@
+s1(09Jan2023:17:54:02):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s2(09Jan2023:17:54:19):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s3(09Jan2023:17:54:37):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s4(09Jan2023:17:55:00):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s5(09Jan2023:17:55:29):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s6(09Jan2023:17:55:39):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s7(09Jan2023:17:57:07):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s8(09Jan2023:17:57:40):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s9(09Jan2023:17:58:09):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s10(09Jan2023:17:58:20):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s11(09Jan2023:17:58:23):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s12(09Jan2023:17:59:48):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s13(09Jan2023:18:00:21):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s14(09Jan2023:18:00:47):  xmverilog testfixture2.v STI_DAC.v +access+r 
+s15(09Jan2023:18:00:56):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s16(09Jan2023:18:01:15):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s17(09Jan2023:18:12:30):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s18(09Jan2023:18:13:11):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s19(11Jan2023:15:42:51):  xmverilog testfixture1.v STI_DAC.v 
+s20(11Jan2023:15:43:01):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s21(11Jan2023:15:46:11):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s22(11Jan2023:15:46:30):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s23(11Jan2023:15:46:43):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s24(11Jan2023:15:47:49):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s25(11Jan2023:15:48:35):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s26(11Jan2023:15:49:05):  xmverilog testfixture2.v STI_DAC.v +access+r 
+s27(11Jan2023:16:37:05):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s28(11Jan2023:16:42:36):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s29(11Jan2023:16:54:56):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s30(11Jan2023:19:42:06):  xmverilog STI_DAC.v 
+s31(11Jan2023:19:42:13):  xmverilog STI_DAC.v 
+s32(11Jan2023:19:42:15):  xmverilog STI_DAC.v 
+s33(11Jan2023:19:42:26):  xmverilog STI_DAC.v 
+s34(11Jan2023:19:46:58):  xmverilog STI_DAC.v 
+s35(11Jan2023:19:47:09):  xmverilog STI_DAC.v 
+s36(11Jan2023:20:05:40):  xmverilog STI_DAC.v 
+s37(11Jan2023:20:12:21):  xmverilog STI_DAC.v 
+s38(11Jan2023:20:12:35):  xmverilog STI_DAC.v 
+s39(11Jan2023:20:12:44):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s40(11Jan2023:20:13:53):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s41(11Jan2023:20:23:51):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s42(11Jan2023:20:24:59):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s43(11Jan2023:20:46:57):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s44(11Jan2023:20:47:30):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s45(11Jan2023:20:53:28):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s46(11Jan2023:20:55:20):  xmverilog testfixture1.v STI_DAC.v +access+r 
+s47(17Jan2023:17:33:16):  ncverilog testfixture1.v STI_DAC.v +access=r 
+s48(17Jan2023:17:33:19):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s49(17Jan2023:19:13:37):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s50(17Jan2023:19:17:37):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s51(17Jan2023:19:18:49):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s52(17Jan2023:19:28:42):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s53(17Jan2023:19:30:06):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s54(17Jan2023:19:34:15):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s55(17Jan2023:19:34:30):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s56(17Jan2023:19:35:13):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s57(17Jan2023:19:35:51):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s58(17Jan2023:19:37:30):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s59(17Jan2023:19:41:38):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s60(17Jan2023:19:41:46):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s61(17Jan2023:19:42:52):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s62(17Jan2023:19:43:23):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s63(17Jan2023:19:44:31):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s64(17Jan2023:19:44:39):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s65(17Jan2023:19:46:24):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s66(17Jan2023:19:47:17):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s67(17Jan2023:19:47:35):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s68(17Jan2023:19:47:56):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s69(17Jan2023:19:48:26):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s70(17Jan2023:19:49:25):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s71(17Jan2023:19:49:29):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s72(17Jan2023:19:52:47):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s73(17Jan2023:19:53:09):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s74(17Jan2023:19:55:52):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s75(17Jan2023:19:59:53):  ncverilog testfixture1.v STI_DAC.v +access=r 
+s76(17Jan2023:19:59:55):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s77(17Jan2023:20:00:21):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s78(17Jan2023:20:00:59):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s79(17Jan2023:20:02:09):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s80(17Jan2023:20:02:18):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s81(17Jan2023:20:02:30):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s82(17Jan2023:20:05:32):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s83(17Jan2023:20:05:37):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s84(17Jan2023:20:09:09):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s85(17Jan2023:20:09:38):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s86(17Jan2023:20:09:59):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s87(17Jan2023:20:10:29):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s88(17Jan2023:20:10:42):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s89(17Jan2023:20:11:09):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s90(17Jan2023:20:13:31):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s91(17Jan2023:20:17:14):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s92(17Jan2023:20:20:39):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s93(17Jan2023:20:28:20):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s94(17Jan2023:20:29:57):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s95(17Jan2023:20:30:07):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s96(17Jan2023:20:30:35):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s97(17Jan2023:20:30:56):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s98(17Jan2023:20:35:13):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s99(17Jan2023:20:35:47):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s100(17Jan2023:20:35:57):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s101(17Jan2023:20:36:05):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s102(17Jan2023:20:41:24):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s103(17Jan2023:20:41:58):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s104(17Jan2023:20:42:01):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s105(17Jan2023:20:43:32):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s106(17Jan2023:20:44:00):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s107(17Jan2023:20:44:16):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s108(17Jan2023:20:44:33):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s109(17Jan2023:20:44:49):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s110(17Jan2023:20:45:37):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s111(17Jan2023:20:47:32):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s112(17Jan2023:20:47:56):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s113(17Jan2023:21:01:10):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s114(17Jan2023:21:11:10):  ncverilog testfixture1.v STI_DAC.v +access=r 
+s115(17Jan2023:21:11:19):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s116(17Jan2023:21:14:57):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s117(17Jan2023:21:15:32):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s118(17Jan2023:21:16:14):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s119(17Jan2023:21:17:18):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s120(17Jan2023:21:18:11):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s121(17Jan2023:21:19:15):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s122(17Jan2023:21:20:48):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s123(17Jan2023:21:23:48):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s124(17Jan2023:21:24:37):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s125(17Jan2023:21:25:11):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s126(17Jan2023:21:25:27):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s127(17Jan2023:21:36:00):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s128(17Jan2023:21:36:32):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s129(17Jan2023:21:36:56):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s130(17Jan2023:21:37:22):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s131(17Jan2023:21:41:01):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s132(17Jan2023:21:41:05):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s133(17Jan2023:21:41:54):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s134(17Jan2023:21:41:58):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s135(18Jan2023:09:15:58):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s136(18Jan2023:09:16:49):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s137(18Jan2023:09:23:30):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s138(18Jan2023:09:25:28):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s139(18Jan2023:09:31:12):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s140(18Jan2023:09:31:56):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s141(18Jan2023:09:34:45):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s142(18Jan2023:09:37:40):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s143(18Jan2023:09:39:29):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s144(18Jan2023:09:40:14):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s145(18Jan2023:09:41:26):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s146(18Jan2023:09:44:50):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s147(18Jan2023:09:45:47):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s148(18Jan2023:09:46:00):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s149(18Jan2023:09:46:15):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s150(18Jan2023:09:47:33):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s151(18Jan2023:09:48:05):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s152(18Jan2023:09:48:39):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s153(18Jan2023:09:49:57):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s154(18Jan2023:09:50:33):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s155(18Jan2023:09:51:47):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s156(18Jan2023:09:52:32):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s157(18Jan2023:09:53:01):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s158(18Jan2023:09:53:12):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s159(18Jan2023:09:53:42):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s160(18Jan2023:09:54:56):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s161(18Jan2023:09:55:02):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s162(18Jan2023:09:57:43):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s163(18Jan2023:10:00:37):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s164(18Jan2023:10:00:44):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s165(18Jan2023:10:01:24):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s166(18Jan2023:10:21:00):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s167(18Jan2023:10:23:02):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s168(18Jan2023:10:26:38):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s169(18Jan2023:10:28:30):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s170(18Jan2023:10:28:35):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s171(18Jan2023:10:29:22):  ncverilog testfixture2.v STI_DAC.v +access+r 
+s172(18Jan2023:10:32:49):  ncverilog testfixture1.v STI_DAC_syn.v -v tsmc13_neg.v +define+SDF 
+s173(18Jan2023:10:33:18):  ncverilog testfixture1.v STI_DAC_syn.v -v tsmc13_neg.v +define+SDF 
+s174(18Jan2023:10:33:53):  ncverilog testfixture1.v STI_DAC_syn.v -v tsmc13_neg.v +define+SDF 
+s175(18Jan2023:10:34:32):  ncverilog testfixture1.v STI_DAC_syn.v -v tsmc13_neg.v +define+SDF 
+s176(18Jan2023:10:36:47):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s177(18Jan2023:10:37:11):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s178(18Jan2023:10:40:00):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s179(18Jan2023:10:41:19):  ncverilog testfixture1.v STI_DAC_syn.v -v tsmc13_neg.v +define+SDF 
+s180(18Jan2023:10:43:23):  ncverilog testfixture2.v STI_DAC_syn.v -v tsmc13_neg.v +define+SDF 
+s181(18Jan2023:10:45:59):  ncverilog testfixture2.v STI_DAC_syn.v -v tsmc13_neg.v +define+SDF 
+s182(18Jan2023:10:49:43):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s183(18Jan2023:10:51:33):  ncverilog testfixture1.v STI_DAC.v +access+r 
+s184(18Jan2023:10:55:41):  ncverilog testfixture1.v STI_DAC.v tsmc13_neg.v +define+SDF 
+s185(18Jan2023:10:55:48):  ncverilog testfixture1.v STI_DAC.v -v tsmc13_neg.v +define+SDF 
+s186(18Jan2023:10:56:07):  ncverilog testfixture1.v STI_DAC.v -v tsmc13_neg.v +define+SDF 
+s187(18Jan2023:10:58:33):  ncverilog testfixture1.v STI_DAC.v -v tsmc13_neg.v +define+SDF 
+s188(18Jan2023:10:58:40):  ncverilog testfixture2.v STI_DAC.v -v tsmc13_neg.v +define+SDF 

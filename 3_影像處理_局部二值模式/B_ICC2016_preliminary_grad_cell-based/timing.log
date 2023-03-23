@@ -1,0 +1,67 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : LBP
+Version: T-2022.03
+Date   : Sat Dec 31 21:32:44 2022
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: state_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: gray_addr_reg[13]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  LBP                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  state_reg[3]/CK (DFFRX1)                 0.00       0.50 r
+  state_reg[3]/Q (DFFRX1)                  0.77       1.27 r
+  U367/Y (NOR2X1)                          0.20       1.47 f
+  U216/Y (CLKBUFX3)                        0.35       1.82 f
+  U240/Y (NAND2X2)                         0.62       2.44 r
+  U208/Y (NAND4BX2)                        0.81       3.24 f
+  U382/CO (ADDFXL)                         1.03       4.27 f
+  U194/CO (ADDFX2)                         0.40       4.67 f
+  U204/CO (ADDFX1)                         0.35       5.03 f
+  U295/CO (ADDFXL)                         0.50       5.53 f
+  U436/CO (ADDFXL)                         0.53       6.05 f
+  U322/CO (ADDFXL)                         0.53       6.58 f
+  U433/CO (ADDFXL)                         0.53       7.11 f
+  U360/CO (ADDFXL)                         0.52       7.63 f
+  U203/CO (ADDFHX1)                        0.36       7.99 f
+  U223/CO (ADDFX2)                         0.37       8.35 f
+  U340/CO (ADDFXL)                         0.50       8.86 f
+  U202/CO (ADDFX2)                         0.40       9.26 f
+  U271/CO (ADDFX2)                         0.36       9.62 f
+  U270/Y (XOR2X1)                          0.20       9.82 f
+  U198/Y (AO21X1)                          0.35      10.17 f
+  gray_addr_reg[13]/D (DFFRX1)             0.00      10.17 f
+  data arrival time                                  10.17
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.50      10.50
+  clock uncertainty                       -0.10      10.40
+  gray_addr_reg[13]/CK (DFFRX1)            0.00      10.40 r
+  library setup time                      -0.22      10.18
+  data required time                                 10.18
+  -----------------------------------------------------------
+  data required time                                 10.18
+  data arrival time                                 -10.17
+  -----------------------------------------------------------
+  slack (MET)                                         0.01
+
+
+1

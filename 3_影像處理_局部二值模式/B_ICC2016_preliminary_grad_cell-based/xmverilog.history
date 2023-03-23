@@ -1,0 +1,13 @@
+s1(31Dec2022:21:07:34):  ncverilog testfixture.v LBP.v +access+r 
+s2(31Dec2022:21:14:39):  ncverilog testfixture.v LBP_syn.v -v tsmc13_neg.v +define+SDF 
+s3(31Dec2022:21:23:49):  ncverilog testfixture.v LBP.v +access+r 
+s4(31Dec2022:21:24:02):  ncverilog testfixture.v LBP.v +access+r 
+s5(31Dec2022:21:24:42):  ncverilog testfixture.v LBP.v +access+r 
+s6(31Dec2022:21:25:42):  ncverilog testfixture.v LBP_syn.v -v tsmc13_neg.v +define+SDF 
+s7(31Dec2022:21:26:35):  ncverilog testfixture.v LBP_syn.v -v tsmc13_neg.v +define+SDF 
+s8(31Dec2022:21:27:52):  ncverilog testfixture.v LBP.v +access+r 
+s9(31Dec2022:21:28:42):  ncverilog testfixture.v LBP_syn.v -v tsmc13_neg.v +define+SDF 
+s10(31Dec2022:21:31:03):  ncverilog testfixture.v LBP_syn.v -v tsmc13_neg.v +define+SDF 
+s11(31Dec2022:21:32:06):  ncverilog testfixture.v LBP.v +access+r 
+s12(31Dec2022:21:32:24):  ncverilog testfixture.v LBP.v +access+r 
+s13(31Dec2022:21:32:54):  ncverilog testfixture.v LBP_syn.v -v tsmc13_neg.v +define+SDF 

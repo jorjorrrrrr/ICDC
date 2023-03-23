@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : DT
+Version: T-2022.03
+Date   : Wed Jan  4 10:48:29 2023
+****************************************
+
+Library(s) Used:
+
+    slow (File: /opt/cad/process/CBDK_IC_Contest_v2.1/SynopsysDC/db/slow.db)
+
+Number of ports:                          170
+Number of nets:                          1043
+Number of cells:                          823
+Number of combinational cells:            728
+Number of sequential cells:                90
+Number of macros/black boxes:               0
+Number of buf/inv:                        123
+Number of references:                      84
+
+Combinational area:               6862.588146
+Buf/Inv area:                      663.683389
+Noncombinational area:            3038.345932
+Macro/Black Box area:                0.000000
+Net Interconnect area:          108453.876953
+
+Total cell area:                  9900.934078
+Total area:                     118354.811031
+1

@@ -1,0 +1,13 @@
+*design* DebussyLib (btIdent Verdi_P-2019.06)
+Command arguments:
+    +define+verilog
+    /home/jorjor/CIC/B_ICC2014_preliminary_grad_cell-based/testfixture1.v
+    /home/jorjor/CIC/B_ICC2014_preliminary_grad_cell-based/STI_DAC.v
+
+
+*Warning* bit-select out of range
+"/home/jorjor/CIC/B_ICC2014_preliminary_grad_cell-based/STI_DAC.v", 177: 
+Highest level modules:
+testfixture1
+
+Total	0 error(s),   1 warning(s)

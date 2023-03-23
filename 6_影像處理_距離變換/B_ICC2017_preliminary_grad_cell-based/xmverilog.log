@@ -1,0 +1,266 @@
+xmverilog(64): 22.03-s003: (c) Copyright 1995-2022 Cadence Design Systems, Inc.
+TOOL:	xmverilog	22.03-s003: Started on Jan 04, 2023 at 10:53:40 CST
+ncverilog
+	testfixture.v
+	DT_syn.v
+	-v
+	tsmc13_neg.v
+	+define+SDF+TB2
+xmverilog: *W,NCEXDEP: Executable (ncverilog) is deprecated. Use (xmverilog) instead.
+Recompiling... reason: file './testfixture.v' is newer than expected.
+	expected: Wed Jan  4 10:51:22 2023
+	actual:   Wed Jan  4 10:53:38 2023
+		Caching library 'tsmc13_neg' ....... Done
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+  DFFRX1 \sti_count_reg[3]  ( .D(n314), .CK(clk), .RN(n541), .Q(sti_count[3])
+                          |
+xmelab: *W,CUVWSP (./DT_syn.v,244|26): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \sti_count_reg[1]  ( .D(n316), .CK(clk), .RN(n540), .Q(sti_count[1])
+                          |
+xmelab: *W,CUVWSP (./DT_syn.v,248|26): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \sti_count_reg[0]  ( .D(n317), .CK(clk), .RN(n540), .Q(n313) );
+                          |
+xmelab: *W,CUVWSP (./DT_syn.v,250|26): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \val4_reg[7]  ( .D(n385), .CK(clk), .RN(n540), .QN(n443) );
+                     |
+xmelab: *W,CUVWSP (./DT_syn.v,257|21): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \val3_reg[6]  ( .D(n392), .CK(clk), .RN(n538), .QN(n444) );
+                     |
+xmelab: *W,CUVWSP (./DT_syn.v,262|21): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \val1_reg[6]  ( .D(n408), .CK(clk), .RN(n536), .QN(n440) );
+                     |
+xmelab: *W,CUVWSP (./DT_syn.v,265|21): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \val4_reg[5]  ( .D(n383), .CK(clk), .RN(n540), .QN(n442) );
+                     |
+xmelab: *W,CUVWSP (./DT_syn.v,266|21): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \val4_reg[3]  ( .D(n381), .CK(clk), .RN(n540), .QN(n437) );
+                     |
+xmelab: *W,CUVWSP (./DT_syn.v,275|21): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \val2_reg[1]  ( .D(n395), .CK(clk), .RN(n536), .QN(n434) );
+                     |
+xmelab: *W,CUVWSP (./DT_syn.v,278|21): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \val2_reg[3]  ( .D(n397), .CK(clk), .RN(n537), .QN(n438) );
+                     |
+xmelab: *W,CUVWSP (./DT_syn.v,281|21): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \val2_reg[5]  ( .D(n399), .CK(clk), .RN(n537), .QN(n441) );
+                     |
+xmelab: *W,CUVWSP (./DT_syn.v,282|21): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \mid_val_reg[3]  ( .D(n415), .CK(clk), .RN(n535), .QN(n601) );
+                        |
+xmelab: *W,CUVWSP (./DT_syn.v,300|24): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \mid_val_reg[1]  ( .D(n417), .CK(clk), .RN(n536), .QN(n600) );
+                        |
+xmelab: *W,CUVWSP (./DT_syn.v,303|24): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX4 \sti_addr_reg[0]  ( .D(n327), .CK(clk), .RN(n538), .Q(sti_addr[0]) );
+                         |
+xmelab: *W,CUVWSP (./DT_syn.v,355|25): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18445): QN
+
+  DFFRX2 \sti_addr_reg[9]  ( .D(n318), .CK(clk), .RN(n539), .Q(sti_addr[9]) );
+                         |
+xmelab: *W,CUVWSP (./DT_syn.v,358|25): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \sti_addr_reg[8]  ( .D(n319), .CK(clk), .RN(n538), .Q(sti_addr[8]) );
+                         |
+xmelab: *W,CUVWSP (./DT_syn.v,361|25): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \sti_addr_reg[1]  ( .D(n326), .CK(clk), .RN(n538), .Q(sti_addr[1]) );
+                         |
+xmelab: *W,CUVWSP (./DT_syn.v,362|25): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \sti_addr_reg[2]  ( .D(n325), .CK(clk), .RN(n538), .Q(sti_addr[2]) );
+                         |
+xmelab: *W,CUVWSP (./DT_syn.v,363|25): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[7]  ( .D(n357), .CK(clk), .RN(n541), .Q(res_addr[7]) );
+                         |
+xmelab: *W,CUVWSP (./DT_syn.v,370|25): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[8]  ( .D(n356), .CK(clk), .RN(n541), .Q(res_addr[8]) );
+                         |
+xmelab: *W,CUVWSP (./DT_syn.v,371|25): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[9]  ( .D(n355), .CK(clk), .RN(n541), .Q(res_addr[9]) );
+                         |
+xmelab: *W,CUVWSP (./DT_syn.v,372|25): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[10]  ( .D(n354), .CK(clk), .RN(n541), .Q(res_addr[10])
+                          |
+xmelab: *W,CUVWSP (./DT_syn.v,373|26): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[11]  ( .D(n353), .CK(clk), .RN(n541), .Q(res_addr[11])
+                          |
+xmelab: *W,CUVWSP (./DT_syn.v,375|26): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[4]  ( .D(n360), .CK(clk), .RN(n541), .Q(res_addr[4]) );
+                         |
+xmelab: *W,CUVWSP (./DT_syn.v,377|25): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[5]  ( .D(n359), .CK(clk), .RN(n541), .Q(res_addr[5]) );
+                         |
+xmelab: *W,CUVWSP (./DT_syn.v,378|25): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[6]  ( .D(n358), .CK(clk), .RN(n541), .Q(res_addr[6]) );
+                         |
+xmelab: *W,CUVWSP (./DT_syn.v,379|25): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[12]  ( .D(n352), .CK(clk), .RN(n541), .Q(res_addr[12])
+                          |
+xmelab: *W,CUVWSP (./DT_syn.v,380|26): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[13]  ( .D(n351), .CK(clk), .RN(n541), .Q(res_addr[13])
+                          |
+xmelab: *W,CUVWSP (./DT_syn.v,382|26): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 res_rd_reg ( .D(n375), .CK(clk), .RN(reset), .Q(res_rd) );
+                  |
+xmelab: *W,CUVWSP (./DT_syn.v,384|18): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 res_wr_reg ( .D(N119), .CK(clk), .RN(reset), .Q(res_wr) );
+                  |
+xmelab: *W,CUVWSP (./DT_syn.v,387|18): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \mid_val_reg[5]  ( .D(n413), .CK(clk), .RN(n535), .QN(n602) );
+                        |
+xmelab: *W,CUVWSP (./DT_syn.v,389|24): 1 output port was not connected:
+xmelab: (./tsmc13_neg.v,18376): Q
+
+	Reading SDF file from location "./DT_syn.sdf"
+	Annotating SDF timing data:
+		Compiled SDF file:     DT_syn.sdf.X
+		Log file:              
+		Backannotation scope:  testfixture.u_dut
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+	Annotation completed successfully...
+	SDF statistics: 
+		 No. of Pathdelays = 2706    	 No. of Disabled Pathdelays = 0        Annotated = 100.00% (2706/2706) 
+		 No. of Tchecks    = 540     	 No. of Disabled Tchecks    = 0        Annotated = 100.00% (540/540) 
+				        Total(T) 	   Disabled(D) 	    Annotated(A)	  Percentage(A/(T-D))
+		 Path Delays	          2706	             0	              2706	                100.00
+		      $width	           270	             0	               270	                100.00
+		  $setuphold	           270	             0	               270	                100.00
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                  827      92
+		UDPs:                      90       1
+		Primitives:              1736       8
+		Timing outputs:           909      19
+		Registers:                109      24
+		Scalar wires:            1007       -
+		Expanded wires:            24       2
+		Always blocks:              4       4
+		Initial blocks:            11      11
+		Cont. assignments:          0       1
+		Pseudo assignments:         1       1
+		Timing checks:            810     122
+		Interconnect:            2288       -
+		Delayed tcheck signals:   270      99
+		Simulation timescale:     1ps
+	Writing initial simulation snapshot: worklib.testfixture:v
+Loading snapshot worklib.testfixture:v .................... Done
+*Verdi* Loading libsscore_xcelium.so
+xcelium> source /usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/xcelium/files/xmsimrc
+xcelium> run
+-----------------------------------------------------
+
+START!!! Simulation Start .....
+
+-----------------------------------------------------
+
+ Output pixel: 0 ~           0 are correct!
+
+ Output pixel: 0 ~        1000 are correct!
+
+ Output pixel: 0 ~        2000 are correct!
+
+ Output pixel: 0 ~        3000 are correct!
+
+ Output pixel: 0 ~        4000 are correct!
+
+ Output pixel: 0 ~        5000 are correct!
+
+ Output pixel: 0 ~        6000 are correct!
+
+ Output pixel: 0 ~        7000 are correct!
+
+ Output pixel: 0 ~        8000 are correct!
+
+ Output pixel: 0 ~        9000 are correct!
+
+ Output pixel: 0 ~       10000 are correct!
+
+ Output pixel: 0 ~       11000 are correct!
+
+ Output pixel: 0 ~       12000 are correct!
+
+ Output pixel: 0 ~       13000 are correct!
+
+ Output pixel: 0 ~       14000 are correct!
+
+ Output pixel: 0 ~       15000 are correct!
+
+ Output pixel: 0 ~       16000 are correct!
+
+-------------------------------------------------------------
+
+Congratulations!!! All data have been generated successfully!
+
+---------- The test result is ..... PASS --------------------
+
+                                                     
+
+-----------------------------------------------------
+
+Simulation complete via $finish(1) at time 1896370493 PS + 0
+./testfixture.v:182 	  #(`CYCLE/3); $finish;
+xcelium> exit
+TOOL:	xmverilog	22.03-s003: Exiting on Jan 04, 2023 at 10:53:44 CST  (total: 00:00:04)

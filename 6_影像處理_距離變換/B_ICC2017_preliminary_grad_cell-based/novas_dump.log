@@ -1,0 +1,188 @@
+LatestSupportedVersion: Xcelium21.3
+xmsim(64) 22.03-s003
+Linux 4.18.0-348.7.1.el8_5.x86_64 #1 SMP Wed Dec 22 13:25:12 UTC 2021 x86_64
+CPU cores: 24
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8192 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		1024
+memorylocked	64 kbytes
+maxproc			385014
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:
+SSH_CONNECTION=192.168.112.68 10229 203.64.101.44 15656
+MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD
+LANG=en_US.UTF-8
+HISTCONTROL=ignoredups
+DISPLAY=localhost:14.0
+HOSTNAME=hp.nclab.nkust.edu.tw
+which_declare=declare -f
+XDG_SESSION_ID=5347
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+USER=jorjor
+PWD=/home/jorjor/CIC/B_ICC2017_preliminary_grad_cell-based
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+HOME=/home/jorjor
+SSH_CLIENT=192.168.112.68 10229 15656
+XDG_DATA_DIRS=/home/jorjor/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+LOADEDMODULES=
+SSH_TTY=/dev/pts/3
+MAIL=/var/spool/mail/jorjor
+TERM=linux
+SHELL=/bin/bash
+TC_LIB_DIR=/usr/lib64/tc
+SHLVL=2
+MANPATH=/usr/share/man::/usr/cad/synopsys/synthesis/2022.03/doc/syn/man:/usr/cad/synopsys/vcs/2022.06/doc/man:/usr/cad/synopsys/synthesis/2022.03/doc/syn/man
+GDK_BACKEND=x11
+MODULEPATH=/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+LOGNAME=jorjor
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-VEwqvQqmOG,guid=76279532e2f5c601dc97899063b4c725
+XDG_RUNTIME_DIR=/run/user/1000008
+MODULEPATH_modshare=/usr/share/modulefiles:1:/usr/share/Modules/modulefiles:1:/etc/modulefiles:1
+PATH=/usr/cad/synopsys/synthesis/2022.03/amd64/syn/bin:/usr/cad/synopsys/verdi/cur/bin:/usr/cad/synopsys/verdi/cur/nLint/bin:/usr/cad/synopsys/verdi/cur/bin:/usr/cad/synopsys/verdi/cur/nLint/bin:/usr/cad/synopsys/vcs/2022.06/amd64/bin:/usr/cad/synopsys/synthesis/2022.03/amd64/syn/bin:/usr/cad/synopsys/verdi_2019/cur/bin:/usr/cad/synopsys/verdi_2019/cur/nLint/bin:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin:/home/jorjor/.local/bin:/home/jorjor/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/var/lib/snapd/snap/bin
+MODULESHOME=/usr/share/Modules
+HISTSIZE=1000
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot "$@"
+}
+BASH_FUNC_module%%=() {  _module_raw "$@" 2>&1
+}
+BASH_FUNC__module_raw%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}
+BASH_FUNC_switchml%%=() {  typeset swfound=1;
+ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then
+ typeset swname='main';
+ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then
+ typeset swfound=0;
+ unset MODULES_USE_COMPAT_VERSION;
+ fi;
+ else
+ typeset swname='compatibility';
+ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then
+ typeset swfound=0;
+ MODULES_USE_COMPAT_VERSION=1;
+ export MODULES_USE_COMPAT_VERSION;
+ fi;
+ fi;
+ if [ $swfound -eq 0 ]; then
+ echo "Switching to Modules $swname version";
+ source /usr/share/Modules/init/bash;
+ else
+ echo "Cannot switch to Modules $swname version, command not found";
+ return 1;
+ fi
+}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}
+BASH_FUNC_ml%%=() {  module ml "$@"
+}
+_=/usr/bin/csh
+HOSTTYPE=x86_64-linux
+VENDOR=unknown
+OSTYPE=linux
+MACHTYPE=x86_64
+GROUP=users
+HOST=hp.nclab.nkust.edu.tw
+REMOTEHOST=192.168.112.68
+MODULES_USE_COMPAT_VERSION=0
+UVM_HOME=/opt/cad/uvm-1.2
+LD_LIBRARY_PATH=:/usr/cad/synopsys/verdi/cur/etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64/:/usr/cad/synopsys/verdi/cur/etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/://usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64::/lib64:/usr/lib64:/usr/local/lib64::/usr/cad/synopsys/verdi_2019/cur/etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi_2019/cur/share/PLI/IUS/LINUX64/://usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib64:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib::/usr/openwin/lib:/usr/dt/lib:/usr/lib:/usr/local/lib
+LM_LICENSE_FILE=26585@lstc:5280@lstc:5280@lshc:5280@lstn:
+SHLIB_PATH=/usr/cad/synopsys/verdi/cur/etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/cur/etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi_2019/cur/etc/lib/libstdc++/LINUX64/
+SYN_MAN_DIR=/usr/cad/synopsys/synthesis/2022.03/doc/syn/man
+VCS_HOME=/usr/cad/synopsys/vcs/2022.06
+VCS_CC=gcc
+VERDI_HOME=/usr/cad/synopsys/verdi/cur
+_XRUNROOT_=/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools
+_IRUNROOT_=/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools
+_HELIUMROOT_=/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools
+CDS_ARCH=lnx86
+ARG_V_Y_IS_USED=1
+XMRUNMODE=xmverilog:./xcelium.d/run.lnx8664.22.03.d
+XRUNBATCH=FALSE
+AMS_LOG_FILE_NAME=xmverilog.log
+IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
+TCL_LIBRARY=/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=xmverilog
+argv[1]=testfixture.v
+argv[2]=DT_syn.v
+argv[3]=-v
+argv[4]=tsmc13_neg.v
+argv[5]=+define+SDF+TB2
+94 profile - 100
+          CPU/Mem usage: 0.030 sys,  0.150 user,  127.46M sys,  0.00M vm
+95 VC callback profile - scalar:0 vector:0
+96 Wed Jan  4 10:53:42 2023
+97 pliAppInit
+98 FSDB_GATE is disabled.
+99 Enable Parallel Dumping.
+100 pliAppMiscSet: New Sim Round
+101 pliEntryInit
+102 LIBSSCORE=found /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/libsscore_xcelium.so through $LD_LIBRARY_PATH setting.
+103 Sim process exit
