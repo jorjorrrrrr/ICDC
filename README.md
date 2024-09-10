@@ -13,3 +13,5 @@
 10. 赫夫曼編碼
 11. ?
 12. 字串匹配引擎
+13. Laser Treatment
+14. Bicubic Resize Engine
