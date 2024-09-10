@@ -1,16 +1,16 @@
 
-FTP account:                       Bxxxxx
+FTP account:                       B00125
 
-Level:                             A/B/C/D
-CYCLE:                             10ns  , clock period , defined in tb.sv
-Time:                              150000
-Power:                             10000
-Area:                              10000
+Level:                             A
+CYCLE:                             8ns  , clock period , defined in tb.sv
+Time:                              283732
+Power:                             0.0187
+Area:                              699378.85
 MAX_CYCLE_PER_PATTERN              50000, defined in tb.sv
 
 --- RTL category---
-HDL simulator :                    xrun/vcs/vsim/... 
-RTL filename :                     Bicubic.v  , DW_xxx.v          
+HDL simulator :                    vcs 
+RTL filename :                     Bicubic.v, multi_div.v, interpolation1d.v, sr.v             
 
 --- Pre-layout gate-level ---
 gate-levelfilename:                Bicubic_syn.v  
