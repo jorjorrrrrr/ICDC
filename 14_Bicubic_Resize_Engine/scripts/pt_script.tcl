@@ -3,12 +3,12 @@
 set power_enable_analysis TRUE
 set power_analysis_mode time_based
 
-read_file -format verilog  ./Bicubic_syn.v
+read_file -format verilog  ./syn/Bicubic_syn.v
 current_design Bicubic
 link
 
 source ./Bicubic.sdc
-read_parasitics -format SPEF -verbose  ./Bicubic_syn.spef
+read_parasitics -format SPEF -verbose  ./syn/Bicubic_syn.spef
 
 
 ## Measure  power
@@ -17,3 +17,5 @@ read_parasitics -format SPEF -verbose  ./Bicubic_syn.spef
 read_vcd  -strip_path testfixture/u_Bicubic  ./Bicubic.vcd
 update_power
 report_power 
+report_power > ./report/power.log 
+exit

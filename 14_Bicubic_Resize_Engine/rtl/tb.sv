@@ -1,6 +1,6 @@
 `timescale 1ns/10ps
 `define CYCLE_TIME      8.0  
-`define SDFFILE    "./Bicubic_syn.sdf"
+`define SDFFILE    "./syn/Bicubic_syn.sdf"
 `define MAX_CYCLE_PER_PATTERN  50000
 `define PLOT_IMG
 `define USECOLOR 
@@ -52,16 +52,16 @@ initial begin
 end
 
 `ifdef P1
-    string PAT [1] = {"pattern1"};
+    string PAT [1] = {"./dat/pattern1"};
     parameter pat_number = 1;
 `elsif P2
-    string PAT [1] = {"pattern2"};
+    string PAT [1] = {"./dat/pattern2"};
     parameter pat_number = 1;
 `elsif P3
-    string PAT [1] = {"pattern3"};
+    string PAT [1] = {"./dat/pattern3"};
     parameter pat_number = 1;
 `else
-    string PAT [3] = {"pattern1","pattern2","pattern3"};
+    string PAT [3] = {"./dat/pattern1","./dat/pattern2","./dat/pattern3"};
     parameter pat_number = 3;
 `endif
 

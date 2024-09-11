@@ -2,10 +2,10 @@
 #read_file -format verilog Bicubic.v
 #read_file -format sverilog  Bicubic.v
 analyze -format verilog { 
-    ./Bicubic.v         \
-    ./multi_div.v       \
-    ./interpolation1d.v \
-    ./sr.v             
+    ./rtl/Bicubic.v         \
+    ./rtl/multi_div.v       \
+    ./rtl/interpolation1d.v \
+    ./rtl/sr.v             
 }
 elaborate Bicubic
 current_design Bicubic
@@ -24,10 +24,14 @@ set_fix_multiple_port_nets -all -buffer_constants [get_designs *]
 #compile -map_effort high -area_effort high -inc
 compile_ultra
 
-write -format ddc     -hierarchy -output "Bicubic_syn.ddc"
-write_sdf -version 1.0  Bicubic_syn.sdf
-write -format verilog -hierarchy -output Bicubic_syn.v
-report_area > area.log
-report_timing > timing.log
-report_qor   >  Bicubic_syn.qor
-write_parasitics -output Bicubic_syn.spef
+sh mkdir -p report
+sh mkdir -p syn
+
+write -format ddc     -hierarchy -output "./syn/Bicubic_syn.ddc"
+write_sdf -version 1.0  ./syn/Bicubic_syn.sdf
+write -format verilog -hierarchy -output ./syn/Bicubic_syn.v
+report_area > ./report/area.log
+report_timing > ./report/timing.log
+report_qor   >  ./report/Bicubic_syn.qor
+write_parasitics -output ./syn/Bicubic_syn.spef
+exit

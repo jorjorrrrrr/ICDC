@@ -127,7 +127,8 @@ module ImgROM (
    assign _Q = Qi ;
 
 initial 
-	$readmemb("ImgROM.rcf", mem );
+	$readmemb("./dat/ImgROM.rcf", mem );
+
 
 
    task update_notifier_buses;

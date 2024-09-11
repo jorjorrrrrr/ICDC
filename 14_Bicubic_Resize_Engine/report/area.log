@@ -3,14 +3,14 @@
 Report : area
 Design : Bicubic
 Version: V-2023.12
-Date   : Tue Sep 10 00:55:28 2024
+Date   : Thu Sep 12 01:15:20 2024
 ****************************************
 
 Library(s) Used:
 
     slow (File: /cad/process/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db)
-    ResultSRAM (File: /home/jorjor/ICC2024/2024_grad_cell/ResultSRAM_slow.db)
-    ImgROM (File: /home/jorjor/ICC2024/2024_grad_cell/ImgROM_slow.db)
+    ResultSRAM (File: /home/jorjor/ICDC/14_Bicubic_Resize_Engine.bak/lib/ResultSRAM_slow.db)
+    ImgROM (File: /home/jorjor/ICDC/14_Bicubic_Resize_Engine.bak/lib/ImgROM_slow.db)
 
 Number of ports:                           39
 Number of nets:                          9595
