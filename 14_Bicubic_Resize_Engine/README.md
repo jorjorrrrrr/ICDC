@@ -41,7 +41,7 @@ It can be seen from this that a two-dimensional cubic interpolation is completed
 
 ## Our design
 
-![Bicubic](https://github.com/jorjorrrrrr/ICDC/blob/main/14_Bicubic_Resize_Engine/fig/Bicubic_Resize_Engine.png)
+![Bicubic](https://github.com/jorjorrrrrr/ICDC/blob/main/14_Bicubic_Resize_Engine/fig/Bicubic.png)
 
 ### ROM Control
 Please review the code.
