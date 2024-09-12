@@ -65,6 +65,10 @@ Futhermore, the pipeline technique also be used in the one-dimensional cubic int
 ### Control Unit
 Please review the code.
 
+## Finite State Machine
+
+![FSM](https://github.com/jorjorrrrrr/ICDC/blob/main/14_Bicubic_Resize_Engine/fig/FSM.png)  
+
 ## File Description 
 ```
 14_Bicubic_Resize_Engine
