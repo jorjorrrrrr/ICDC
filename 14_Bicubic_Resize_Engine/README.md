@@ -3,7 +3,8 @@
 ## Description
 Bicubic Search Engine can enlarge the selected 2-dimension data to an arbitrary required size.  
 The original image data is stored in ROM, and the image data after scaling will be written into SRAM by the bicubic search engine.  
-PS: It is a competition question for the preliminary round of IC Contest 2024 (Cell-based).  
+It is a competition question for the preliminary round of IC Contest 2024 (Cell-based).  
+You can check the path `./document/B_ICC2024_prelimily_grad_cell-based.pdf` to get the detailed design specifications.  
 reference: [IC Contest 2024](https://www.iccontest2024.com/)
 
 ## Introduction to cubic interpolation
