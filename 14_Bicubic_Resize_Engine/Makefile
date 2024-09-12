@@ -21,14 +21,15 @@ pt:
 	pt_shell -f ./scripts/pt_script.tcl
 
 verdi:
-	verdi -ssf Bicubic.fsdb
+	verdi -ssf Bicubic.fsdb &
 
 clean:
 	rm -rf Bicubic.fsdb Bicubic.vcd csrc novas_dump.log 	\
 			simv simv.daidir ucli.key verdi_config_file		\
 			alib-52 *.mr *.pvl *.syn cksum_dir command.log	\
-			default.svf parasitics_command.log 				\
-			primetime_px.fsdb  pt_shell_command.log
+			default.svf parasitics_command.log novas.conf	\
+			primetime_px.fsdb  pt_shell_command.log 		\
+			novas.rc verdiLog
 
 clean_all: clean
 	rm -rf ./syn/*
