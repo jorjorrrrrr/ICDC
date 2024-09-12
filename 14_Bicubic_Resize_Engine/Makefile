@@ -29,7 +29,7 @@ clean:
 			alib-52 *.mr *.pvl *.syn cksum_dir command.log	\
 			default.svf parasitics_command.log novas.conf	\
 			primetime_px.fsdb  pt_shell_command.log 		\
-			novas.rc verdiLog
+			novas.rc verdiLog 
 
 clean_all: clean
 	rm -rf ./syn/*
