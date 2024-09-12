@@ -1,6 +1,6 @@
 # Bicubic Search Engine
 
-![bicubic_png](https://github.com/jorjorrrrrr/ICDC/main/14_Bicubic_Resize_Engine/fig/Bicubic.png)
+![bicubic_png](https://github.com/jorjorrrrrr/ICDC/blob/main/14_Bicubic_Resize_Engine/fig/Bicubic.png)
 
 ## Folder Description
 ```
