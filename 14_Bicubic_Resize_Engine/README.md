@@ -3,7 +3,8 @@
 ## Description
 Bicubic Search Engine can enlarge the selected 2-dimension data to an arbitrary required size.  
 The original image data is stored in ROM, and the image data after scaling will be written into SRAM by the bicubic search engine.  
-PS: It is a competition question for the preliminary round of IC Contest 2024 (Cell-based).  
+It is a competition question for the preliminary round of IC Contest 2024 (Cell-based).  
+You can check the path `./document/B_ICC2024_prelimily_grad_cell-based.pdf` to get the detailed design specifications.  
 reference: [IC Contest 2024](https://www.iccontest2024.com/)
 
 ## Introduction to cubic interpolation
@@ -28,7 +29,7 @@ $b = p(-1) - \frac{5}{2}p(0) + 2p(1) - \frac{1}{2}p(2)$
 $c = -\frac{1}{2}p(-1) + \frac{1}{2}p(1)$  
 $d = p(0)$  
 
-Finally, substituting $a, b, c$ and $d$ into the original equation to get p(x).  
+Finally, substituting $a, b, c$ and $d$ into the original equation to get $p(x)$.  
 
 ## Introduction to bicubic interpolation
 One-dimensional cubic interpolation uses the values of 4 points to obtain an interpolated value.
@@ -64,6 +65,10 @@ Futhermore, the pipeline technique also be used in the one-dimensional cubic int
 
 ### Control Unit
 Please review the code.
+
+## Finite State Machine
+
+![FSM](https://github.com/jorjorrrrrr/ICDC/blob/main/14_Bicubic_Resize_Engine/fig/FSM.png)  
 
 ## File Description 
 ```
