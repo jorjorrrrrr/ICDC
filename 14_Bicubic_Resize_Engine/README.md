@@ -29,7 +29,7 @@ $b = p(-1) - \frac{5}{2}p(0) + 2p(1) - \frac{1}{2}p(2)$
 $c = -\frac{1}{2}p(-1) + \frac{1}{2}p(1)$  
 $d = p(0)$  
 
-Finally, substituting $a, b, c$ and $d$ into the original equation to get p(x).  
+Finally, substituting $a, b, c$ and $d$ into the original equation to get $p(x)$.  
 
 ## Introduction to bicubic interpolation
 One-dimensional cubic interpolation uses the values of 4 points to obtain an interpolated value.
